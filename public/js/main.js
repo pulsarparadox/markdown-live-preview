@@ -87,7 +87,7 @@ This web site is using ${"`"}markedjs/marked${"`"}.
             indentedSoftWrap: false,
             fontSize: 14,
             autoScrollEditorIntoView: true,
-            theme: 'ace/theme/chrome',
+            theme: 'ace/theme/monokai',
         });
 
         var MarkdownMode = ace.require("ace/mode/markdown").Mode;
@@ -218,6 +218,14 @@ This web site is using ${"`"}markedjs/marked${"`"}.
             });
         });
     };
+
+    // Added by pulsarparadox
+    document.getElementById('view-button').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.body.classList.toggle('preview-only');
+        // Force resize event to make sure the editor adapts
+        window.dispatchEvent(new Event('resize'));
+    });
 
     // ----- local state -----
 

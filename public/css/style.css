@@ -140,3 +140,24 @@ footer {
 #preview.column {
   white-space: normal;
 }
+
+/* Added by pulsarparadox */
+.preview-only #edit {
+  display: none;
+}
+
+.preview-only #preview {
+  flex-basis: 100%;
+}
+
+.preview-only #preview-wrapper {
+  padding: 80px;
+}
+
+.preview-only #sync-button {
+  display: none;
+}
+
+#view-button {
+margin-left: 16px;
+}

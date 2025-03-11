@@ -1,26 +1,17 @@
-# Markdown Live Preview
+# Markdown Live Preview Fork
 
-[Markdown Live Preview](https://markdownlivepreview.com/) is a tiny web tool to preview Markdown formatted text.
+This is a fork of [Markdown Live Preview](https://github.com/tanabe/markdown-live-preview) with some UI enhancements.
 
-## Setup
+## Changes from original
+- Added option to hide/show editor column
+- Changed editor theme to dark version (monokai)
 
-```
-$ make setup
-```
+## How to Use
+1. Clone this repository
+2. Open `public/index.html` in your browser
 
-## Build
-
-```
-$ make build
-```
-
-## Run local testing server
-
-```
-$ make run
-```
-
-This script requires Python 3.
+## Credits
+Original project: [Markdown Live Preview](https://github.com/tanabe/markdown-live-preview) by tanabe
 
 ## License
-See the [LICENSE](https://github.com/tanabe/markdown-live-preview/blob/master/LICENSE) file in this repo.
+This project is licensed under the same terms as the original project. See the [LICENSE](https://github.com/tanabe/markdown-live-preview/blob/main/LICENSE) file.
