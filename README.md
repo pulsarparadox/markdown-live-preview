@@ -4,7 +4,7 @@ This is a fork of [Markdown Live Preview](https://github.com/tanabe/markdown-liv
 
 ## Changes from original
 - Added option to hide/show editor column
-- Changed editor theme to dark version (monokai)
+- Changed editor theme to dark version
 
 ## How to Use
 1. Clone this repository

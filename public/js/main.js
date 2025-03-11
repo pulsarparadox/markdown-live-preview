@@ -87,7 +87,7 @@ This web site is using ${"`"}markedjs/marked${"`"}.
             indentedSoftWrap: false,
             fontSize: 14,
             autoScrollEditorIntoView: true,
-            theme: 'ace/theme/monokai',
+            theme: 'ace/theme/tomorrow_night_eighties',
         });
 
         var MarkdownMode = ace.require("ace/mode/markdown").Mode;
